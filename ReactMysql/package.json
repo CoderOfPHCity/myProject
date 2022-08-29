@@ -1,0 +1,40 @@
+{
+  "name": "nodejs-mysql-authentication",
+  "version": "1.0.0",
+  "description": "nodejs login with jwt token",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "jwt",
+    "passport",
+    "express"
+  ],
+  "author": "Daniel Agantem",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^7.4.2",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasirhussain17/Login-Register-using-react-nodejs-and-mysql-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nasirhussain17/Login-Register-using-react-nodejs-and-mysql-/issues"
+  },
+  "homepage": "https://github.com/nasirhussain17/Login-Register-using-react-nodejs-and-mysql-#readme"
+}
